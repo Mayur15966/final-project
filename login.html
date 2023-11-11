@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitnessHub-Login</title>
+    <link rel="icon" href="img/text-logo.png" type="image/x-icon" width="40px">
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+      .bg {
+        padding-bottom: 139px;
+        background-image: url(img/back-login2.jpg);
+        background-size: cover;
+         
+      }
+      .login{
+        background-color: rgba(0, 0, 0, 0.582);
+      }
+      .submit {
+        background-color: #f36100;
+       }
+       .submit:hover
+       {
+        transition: all ease 0.4s;
+        color:black !important;
+        }
+       .bg-input
+       {
+        border: 0px solid black;
+        background-color: rgba(255, 255, 255, 0.384)  ;
+       }
+       .orange{
+        color: #f36100;
+       }
+        .logo{
+            padding-bottom: 100px;
+
+        }
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+        <div class="container">
+<img src="img/logo.png" alt="" class="logo mt-3 ms-3" width="180px">
+             
+        </div>
+        <br><br> 
+      <div class="col-md-12 row">
+        <div class="col-md-2  "></div>
+        <div class="col-md-4 login ">
+            <br><br>
+          <form action="">
+            <label for="usr-nm" class="ms-4 text-light ">Username</label> <br />
+            <input
+              type="text"
+              id="usr-nm"
+              name="usr-name"
+              size="56"
+              maxlength="15"
+              class="ms-4 mt-2 py-2 bg-input"
+            />
+
+            <label for="pass" class="ms-4 mt-4 text-light ">Password</label> <br />
+            <input
+              type="password"
+              id="pass"
+              name="pass"
+              size="56"
+              class="ms-4 mt-2 py-2 bg-input"
+            />
+
+            <div class="col-md-12 row mt-3">
+              <div class="col-md-5">
+                <input
+                  type="checkbox"
+                  id="save-pass"
+                  name="save-pass"
+                  class="ms-4"
+                />
+                <label for="save-pass" class="ms-1 text-light">Stay Signed In</label>
+              </div>
+              <div class="col-md-3"></div>
+              <div class="col-md-4">
+                <a href="#" class="text-decoration-none  ">Forgot Password?</a>
+              </div>
+            </div>
+          </form>
+          <br> 
+          <div class="text-center pb-3">
+
+              <a
+              href="#"
+              class="text-decoration-none text-light submit px-5 py-2 shadow-lg"
+              ><b>Log In</b></a
+              >
+<br><br><br> 
+
+              <span class="text-light ">Don't have an account?</span> <a href="signup.html" class="text-decoration-none">
+                Sign up.
+              </a>
+            </div>
+          
+          
+        </div>
+        <div class="col-md-6 "></div>
+      </div>
+    </div>
+  </body>
+</html>
