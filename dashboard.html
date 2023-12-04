@@ -423,7 +423,7 @@
                     alert('User details not found.');
                 }
             } else {
-                alert('User is not signed in.');
+                alert('You were logged out.');
                 window.location.href = '/login.html'; // Change to your login page
             }
         });
@@ -433,7 +433,6 @@
             try {
                 // Sign out the user
                 await signOut(auth);
-                alert('You have successfully logged out.');
             } catch (error) {
                 // Handle errors, display an alert, or log them
                 alert('Error signing out: ' + error.message);
