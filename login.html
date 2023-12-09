@@ -162,7 +162,7 @@
                 const userCredential = await signInWithEmailAndPassword(auth, formData.emailAddress, formData.password);
                 const userId = userCredential.user.uid;
                 alert('Successfully logged you in')
-                window.location.href = '/dashboard.html'
+                window.location.href = '/home.html'
                 // const userDoc = await getDoc(doc(db, 'usersSignupData', userId));
                 // if (userDoc.exists()) {
                 //     // User details found in Firestore
